@@ -1,0 +1,181 @@
+users = {
+    userOne = {
+        "id": 0,
+        "name": "Linda",
+        "occupation": "oracle",
+        "gender": "female",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": true,
+        "mentee": false,
+        "skills": {
+            "Java": 8,
+            "C": 8,
+            "Javascript": 5,
+            "HTMLCSS": 5,
+            "Python": 5,
+            "AWS": 3,
+            "Communication": 8
+        },
+        "interests": {
+            "Java": true,
+            "C": true,
+            "Javascript": false,
+            "HTMLCSS": false,
+            "Python": false,
+            "AWS": true,
+            "Communication": false
+        },
+        "contacts" : [2, 4, 5]
+    },
+    
+    userTwo = {
+        "id": 1,
+        "name": "Sarah",
+        "occupation": "whale",
+        "gender": "female",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": true,
+        "mentee": true,
+        "skills": {
+            "Java": 2,
+            "C": 6,
+            "Javascript": 10,
+            "HTMLCSS": 10,
+            "Python": 2,
+            "AWS": 7,
+            "Communication": 4
+        },
+        "interests": {
+            "Java": true,
+            "C": false,
+            "Javascript": true,
+            "HTMLCSS": true,
+            "Python": false,
+            "AWS": true,
+            "Communication": true
+        },
+        "contacts" : [2, 3, 5]
+    },
+    
+    userThree = {
+        "id": 2,
+        "name": "Veda",
+        "occupation": "wizard",
+        "gender": "female",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": false,
+        "mentee": true,
+        "skills": {
+            "Java": 6,
+            "C": 9,
+            "Javascript": 3,
+            "HTMLCSS": 8,
+            "Python": 4,
+            "AWS": 10,
+            "Communication": 5
+        },
+        "interests": {
+            "Java": true,
+            "C": false,
+            "Javascript": true,
+            "HTMLCSS": false,
+            "Python": true,
+            "AWS": false,
+            "Communication": false
+        },
+        "contacts" : [0, 1, 4]
+    },
+    
+    userFour = {
+        "id": 3,
+        "name": "Martha",
+        "occupation": "skater",
+        "gender": "female",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": false,
+        "mentee": true,
+        "skills": {
+            "Java": 8,
+            "C": 8,
+            "Javascript": 5,
+            "HTMLCSS": 5,
+            "Python": 5,
+            "AWS": 3,
+            "Communication": 8
+        },
+        "interests": {
+            "Java": false,
+            "C": true,
+            "Javascript": false,
+            "HTMLCSS": true,
+            "Python": false,
+            "AWS": true,
+            "Communication": false
+        },
+        "contacts" : [1, 5]
+    },
+    
+    userFive = {
+        "id": 4,
+        "name": "Jenna",
+        "occupation": "sentient ball of light",
+        "gender": "female",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": false,
+        "mentee": true,
+        "skills": {
+            "Java": 1,
+            "C": 1,
+            "Javascript": 5,
+            "HTMLCSS": 4,
+            "Python": 5,
+            "AWS": 3,
+            "Communication": 6
+        },
+        "interests": {
+            "Java": true,
+            "C": true,
+            "Javascript": false,
+            "HTMLCSS": false,
+            "Python": true,
+            "AWS": true,
+            "Communication": false
+        },
+        "contacts" : [0, 2]
+    },
+    
+    userSix = {
+        "id": 5,
+        "name": "Jericho",
+        "occupation": "dragon-slayer",
+        "gender": "male",
+        "location": "San Diego",
+        "blurb": "",
+        "mentor": true,
+        "mentee": true,
+        "skills": {
+            "Java": 7,
+            "C": 3,
+            "Javascript": 7,
+            "HTMLCSS": 9,
+            "Python": 6,
+            "AWS": 2,
+            "Communication": 6
+        },
+        "interests": {
+            "Java": true,
+            "C": true,
+            "Javascript": false,
+            "HTMLCSS": false,
+            "Python": true,
+            "AWS": true,
+            "Communication": false
+        },
+        "contacts" : [0, 1, 3]
+    }
+}
