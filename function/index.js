@@ -1,3 +1,3 @@
-function hello(){
-	alert("HELLO!");
+function myFunction() {
+	alert("I am an alert box!");
 }
