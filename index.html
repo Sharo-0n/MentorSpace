@@ -58,14 +58,42 @@
 	<!-- Home page -->
 	<div id="home">
 		<div class="jumbotron" id="profile_summary">
-			<div id="profile_pic">
-				<img id="profile_image" src="./images/profilePic.png">
-				<div id="name">Name</div>
-			</div>
-			<div id="profile_info">
-				ABC
+			<h3 id="profile_summary_title">Profile Summary</h3>
+			<div style="display: flex; flex-direction: row; height: 20%">
+				<div id="profile_pic">
+					<img id="profile_image" src="./images/profilePic.png">
+					<div id="name">Name</div>
+					<div id="profile_button" class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-secondary">Left</button>
+						<button type="button" class="btn btn-secondary">Middle</button>
+						<button type="button" class="btn btn-secondary">Right</button>
+					</div>
+				</div>
+				<div id="profile_info">
+					ABC
+				</div>
 			</div>
 		</div>	
+
+		<div class="scrollable_contents" id="notifications">
+			<h3>Notifications</h3>
+			<ul>
+				<li>Request to connect sent to Whale</li>
+				<li>Accepted request to connect with Oracle</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+
+		<div class="scrollable_contents" id="request_history">
+			<h3>Request History</h3>
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 
 	</div>
 
