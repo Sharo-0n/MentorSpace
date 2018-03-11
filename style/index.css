@@ -19,7 +19,12 @@
 #profile_pic{
 	text-align: center;
 	width: 30%;
-	
+
+}
+
+#profile_info
+{
+	width: 40%;
 }
 
 #profile_image{
@@ -47,24 +52,24 @@
   overflow: scroll;
   margin: 0 auto;
   padding: 0;
-  
+
   border: 2px solid #ccc;
-  
+
   font-size: 16px;
   font-family: Arial, sans-serif;
-  
+
   -webkit-overflow-scrolling: touch;
 }
 
 .scrollable_contents li {
   padding: 10px 20px;
-  
+
   border-bottom: 1px solid #ccc;
-  
+
   &:last-child {
     border-bottom: none;
   }
-  
+
   &:nth-child(even) {
     background: #f8f8f8;
   }
@@ -192,7 +197,7 @@ form {
 }
 
 .msg--them {
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
 .msg--them blockquote {
