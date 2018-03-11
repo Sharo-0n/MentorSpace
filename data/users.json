@@ -1,5 +1,5 @@
-users = {
-    userOne = {
+"users" : {
+    "userOne" : {
         "id": 0,
         "name": "Linda",
         "occupation": "oracle",
@@ -29,7 +29,7 @@ users = {
         "contacts" : [2, 4, 5]
     },
     
-    userTwo = {
+    "userTwo" : {
         "id": 1,
         "name": "Sarah",
         "occupation": "whale",
@@ -59,7 +59,7 @@ users = {
         "contacts" : [2, 3, 5]
     },
     
-    userThree = {
+    "userThree" : {
         "id": 2,
         "name": "Veda",
         "occupation": "wizard",
@@ -89,7 +89,7 @@ users = {
         "contacts" : [0, 1, 4]
     },
     
-    userFour = {
+    "userFour" : {
         "id": 3,
         "name": "Martha",
         "occupation": "skater",
@@ -119,7 +119,7 @@ users = {
         "contacts" : [1, 5]
     },
     
-    userFive = {
+    "userFive" : {
         "id": 4,
         "name": "Jenna",
         "occupation": "sentient ball of light",
@@ -149,7 +149,7 @@ users = {
         "contacts" : [0, 2]
     },
     
-    userSix = {
+    "userSix" : {
         "id": 5,
         "name": "Jericho",
         "occupation": "dragon-slayer",
