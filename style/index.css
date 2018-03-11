@@ -19,7 +19,10 @@
 #profile_pic{
 	text-align: center;
 	width: 30%;
+}
 
+#profile_pic img {
+  height: 250px;
 }
 
 #profile_info
@@ -28,7 +31,6 @@
 }
 
 #profile_image{
-	max-width: 20%;
 	padding-bottom: 5%;
 }
 #profile_info{
