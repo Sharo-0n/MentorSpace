@@ -46,54 +46,145 @@
 	        </div><!--navbar-header-->
 	        <div class="collapse navbar-collapse" id="the-links">
 	          <ul class="nav navbar-nav">
-	            <li><a target="_blank">Home</a></li>
-	            <li><a target="_blank">Find Connections</a></li>
-	            <li><a target="_blank">Chat History</a></li>
-	            <li><a target="_blank">Settings</a></li>
+	            <li><a onclick="showHome()" target="_blank">Home</a></li>
+	            <li><a onclick="showFindConnections()" target="_blank">Find Connections</a></li>
+	            <li><a onclick="showChatHistory()" target="_blank">Chat History</a></li>
+	            <!-- <li><a onclick="showSettings()" target="_blank">Settings</a></li> -->
 	          </ul>
 	        </div> <!--collapse-->
 	      </div><!--container-fluid-->
 	</nav>
 
-	<!-- Home page -->
-	<div id="home">
-		<div class="jumbotron" id="profile_summary">
-			<h3 id="profile_summary_title">Profile Summary</h3>
-			<div style="display: flex; flex-direction: row; height: 20%">
-				<div id="profile_pic">
-					<img id="profile_image" src="./images/profilePic.png">
-					<div id="name">Name</div>
-					<div id="profile_button" class="btn-group" role="group" aria-label="Basic example">
-						<button type="button" class="btn btn-secondary">Left</button>
-						<button type="button" class="btn btn-secondary">Middle</button>
-						<button type="button" class="btn btn-secondary">Right</button>
+	<div id="panel_change">
+
+
+		<div class="pane_change" pane-link="Home">
+			<div class="jumbotron" id="profile_summary">
+				<h3 id="profile_summary_title">Profile Summary</h3>
+				<div style="display: flex; flex-direction: row; height: 20%">
+					<div id="profile_pic">
+						<img id="profile_image" src="./images/profilePic.png">
+						<div id="name">Name</div>
+						<div id="profile_button" class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" class="btn btn-secondary">Left</button>
+							<button type="button" class="btn btn-secondary">Middle</button>
+							<button type="button" class="btn btn-secondary">Right</button>
+						</div>
+					</div>
+					<div id="profile_info">
+						ABC
 					</div>
 				</div>
-				<div id="profile_info">
-					ABC
+			</div>	
+
+			<div class="scrollable_contents" id="notifications">
+				<h3>Notifications</h3>
+				<ul>
+					<li>Oracle sent you a message</li>
+					<li>Whale Accepted your request to connect</li>
+				</ul>
+			</div>
+
+			<div class="scrollable_contents" id="request_history">
+				<h3>Request History</h3>
+				<ul>
+					<li>Whale Accepted your request to connect</li>
+					<li>Request to connect sent to Whale</li>
+					<li>Accepted request to connect with Oracle</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div id="FindConnections" class="pane_change" pane-link="FindConnections">
+		    <div class="container">
+				<div class="row">
+					<div class="col-md-12">
+			            <div class="input-group" id="adv-search">
+			                <input type="text" class="form-control" placeholder="Search for mentors" />
+			                <div class="input-group-btn">
+			                    <div class="btn-group" role="group">
+
+
+			                        <div class="dropdown dropdown-lg">
+			                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"></span></button>
+			                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+			                                <form class="form-horizontal" role="form">
+
+			                                  <div class="form-group">
+
+			                                    <label for="filter">Filter by</label>
+			                                    <select class="form-control">
+			                                        <option value="0" selected>All Mentors</option>
+			                                        <option value="1">Gender</option>
+			                                        <option value="2">Location</option>
+			                                    </select>
+			                                  </div>
+
+			                                  <div class="form-group">
+			                                    <label for="contain">Topics</label>
+			                                    <input class="form-control" type="text" />
+			                                  </div>
+
+
+			                                  <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+
+			                                </form>
+			                            </div>
+			                        </div>
+
+
+			                        <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+			                    </div>
+			                </div>
+			            </div>
+			          </div>
+			        </div>
 				</div>
 			</div>
-		</div>	
 
-		<div class="scrollable_contents" id="notifications">
-			<h3>Notifications</h3>
-			<ul>
-				<li>Request to connect sent to Whale</li>
-				<li>Accepted request to connect with Oracle</li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
 		</div>
 
-		<div class="scrollable_contents" id="request_history">
-			<h3>Request History</h3>
-			<ul>
-				<li></li>
-				<li></li>
-			</ul>
+		<div class="pane_change" pane-link="ChatHistory">
+			<header class="contact">
+	            <section class="contact--details">
+	                <h1 class="contact--details__name online">Homer</h1>
+	                <p class="contact--details__tel">+1234567890</p>
+	            </section>
+	        </header>
+	        <section class="messages">
+	            <section>
+	                <h3 class="msg--date">Today - 19:44</h3>
+	                <div class="msg msg--me">
+	                    <blockquote>Dad! You killed the zombie Flanders!</blockquote>
+	                </div>
+	                <div class="msg msg--them">
+	                    <blockquote>He was a zombie?</blockquote>
+	                </div>
+	            </section>
+	            <section>
+	                <h3 class="msg--date">Yesterday - 08:17</h3>
+	                <div class="msg msg--them">
+	                    <blockquote>Grrrr WHY YOU LITTLE...</blockquote>
+	                </div>
+	                <div class="msg msg--me">
+	                    <blockquote>It was like that when I got here!</blockquote>
+	                </div>
+	                <div class="msg msg--them">
+	                    <blockquote>Hehehe, that's my boy</blockquote>
+	                </div>
+	            </section>
+	        </section>
+	        <form>
+	            <input type="text" placeholder="Your message">
+	          <div class="msg-send"><span class="fontawesome-play"/></div>
+	        </form>
 		</div>
+	</div>
+
+	<!-- Home page -->
+	<div id="home">
+
 
 	</div>
 
